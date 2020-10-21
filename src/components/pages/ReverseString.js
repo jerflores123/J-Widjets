@@ -24,7 +24,7 @@ handleSubmit = (event) => {
         return (
           <form className="reverse-string" onSubmit={this.handleSubmit}>
             <div>
-              <label>Type in anything to see it reversed! </label>
+              <label>Type to see it reversed! </label>
               <input type='text' value={this.state.string}
               onChange={this.handleStringChange}/>
             </div>

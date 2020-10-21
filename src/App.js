@@ -5,6 +5,7 @@ import Home from './components/pages/Home';
 import ReverseString from './components/pages/ReverseString';
 import CharacterCount from './components/pages/CharacterCount';
 import './App.css'; 
+import background from './rbgimg.jpg';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/reverse-string' exact component={ReverseString}></Route>
           <Route path='/character-count' exact component={CharacterCount}></Route>
         </Switch>
+        <img className="background-image" src={background}></img>
       </Router>
     );
 }

@@ -1,15 +1,15 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
+//import logo from './logo192.png';
 import './Navbar.css'
 
 function Navbar() {
-        return(
-            <>
+    return(
+        <>
             <nav className="navbar">
-               <Link to='/'
-                    className='navbar-logo'>
+                <Link to='/' className='navbar-logo'>
                     REACT
-                </Link> 
+                </Link>
                 <ul className="nav-menu">
 
                 <li className='navbar'>
