@@ -4,7 +4,7 @@ A one-page REACT Web App that can switch between two components.
 
 ## Project Screen Shot(s)
 
-![](./images/gifreverse.gif)
+![](gifreverse.gif)
 
 ![](gifcount.gif)
 
