@@ -1,25 +1,55 @@
+.react-project {
+  color: rgb(255, 255, 255);
+  background:  rgb(178, 106, 226, .5) ;
+  position: absolute;
+  top: 250px; 
+  width: 50%;
+  padding: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+.react-project-req {
+  color: rgb(255, 255, 255);
+  background:  rgb(178, 106, 226, .5) ;
+  position: absolute;
+  top: 550px; 
+  right: 8px;
+  width: 50%;
+  padding: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+
 .home,
 .reverse-string,
 .character-count {
   color: rgb(255, 255, 255);
-  background:  rgb(118, 106, 226) ;
+  background:  rgb(178, 106, 226) ;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size:1.3rem;
-
+  font-family: "Courier New", Courier, monospace;
 }
 
 .reverse-button,
 .count-button {
-  background-color: #bec0c2;
-  color: rgb(68, 68, 68);
+  background-color: #a3a3a3;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  
+}
+
+.reverse-button:hover,
+.count-button:hover {
+  background-color: #65d1f1;
+  color: white;
 }
 
 #result {
-  color: rgb(129, 0, 235);
-  background-color: white;
+  color: rgb(180, 99, 247);
+  background-color: rgb(34, 34, 34);
   position: absolute;
   top: 250px;
   font-size: 2rem;  
@@ -27,9 +57,13 @@
   width: 50%;
   height: 5em;
   padding: .5em;
-  overflow: scroll;
 }
 
+@media only screen and (max-width: 900px) {
+  #result  {
+    overflow: scroll;
+  }
+}
 
 .background-image {
   width: 100%;

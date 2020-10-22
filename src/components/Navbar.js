@@ -1,17 +1,16 @@
 import React from 'react';
 import {Link } from 'react-router-dom';
-//import logo from './logo192.png';
 import './Navbar.css'
 
 function Navbar() {
     return(
         <>
             <nav className="navbar">
-                <Link to='/' className='navbar-logo'>
-                    REACT
+                <Link to='/react-project' className='navbar-logo'>
+                    REACT PROJECT
                 </Link>
-                <ul className="nav-menu">
 
+                <ul className="nav-menu">
                 <li className='navbar'>
                     <Link to='/home' className='nav-links' >
                     Home
@@ -27,10 +26,10 @@ function Navbar() {
                     Character Count
                     </Link> 
                 </li> 
-
                 </ul>
+                
             </nav>
-            </>
+        </>
         );
 }
 

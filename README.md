@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## React Project
 
-## Available Scripts
+A one-page REACT Web App that can switch between two components.
 
-In the project directory, you can run:
+## Project Screen Shot(s)
 
-### `npm start`
+![](gifreverse.gif)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![](gifcount.gif)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Installation and Setup Instructions
 
-### `npm test`
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Installation:
 
-### `npm run build`
+`npm install`  
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To Start Server:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+`npm start`   
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Reflection
 
-### `npm run eject`
+    This is a 4 day Interview React project for Ada County in Idaho. Project goals included building a single page application using React with two components: Reverse String and Character Count. Originally I started off by creating two components and then I wanted to make the web app look nicer so I created a navigation bar using Routers that switched between routes. The projects reverse string and character count are functions I have experience with so implementing was not to difficult. My main challenge was learning react components, but I was able to come out knowing more than I did 4 days ago.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    If I could do anything different, I would probably make one of the components a hook and also add different packages to make site look even better.
