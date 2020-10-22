@@ -1,1 +1,1 @@
-![](name-of-giphy.gif)
+![](gif.gif)
