@@ -1,32 +1,53 @@
-## React Project
+# 📦 JWidgets
 
-A one-page REACT Web App that can switch between two components.
+I created an innovative widget application, designed to simplify and enhance your daily experience.
 
-## Project Screen Shot(s)
+## 🚀 Features
 
-![](gifreverse.gif)
+- Checklist
+- Weather  
+- Calculator
+- Reverse String  
+- Character Count 
+- Theme toggle
+- Random verse generator
 
-![](gifcount.gif)
+## 🛠️ Technologies Used
 
-## Installation and Setup Instructions
+- Framework(s): React
+- Tools: Git, https://openweathermap.org/ (for API key, I will include mine), https://bible-api.com/
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+## 📂 Project Structure
 
-Installation:
 
-`npm install`  
+```bash
+project-name/
+├── src/                # Source files
+├── components/pages/   # Components      
+├── images/             # Image Files
+└── README.md           # Project documentation
 
+```
+## Installation
+
+Assuming you have cloned the repository. 
+
+```bash
+cd JWidgets
+```
+
+Navigate to the project directory
+```bash
+
+```
+
+You will need to install the latest verson of `node.js` in order to run `npm`.
+```bash
+npm install
+```
 To Start Server:
 
-`npm start`   
-
-## Reflection
-
-    This is a 4 day Interview React project for Ada County in Idaho. Project goals included building a single page application using React with two components: Reverse String and Character Count. 
-    
-    Originally I started off by creating two components and then I wanted to make the web app look nicer so I created a navigation bar using Routers that switched between routes. The projects reverse string and character count are functions I have experience with so implementing was not to difficult. 
-    
-    My main challenge was learning react components, but I was able to come out knowing more than I did 4 days ago.
-
-    If I could do anything different, I would probably make one of the components a hook and also add different packages to make site look even better.
+```bash
+npm start
+```
 
