@@ -1,4 +1,4 @@
-# 📦 JWidgets
+# 📦 J-Widgets
 
 I created an innovative widget application, designed to simplify and enhance your daily experience.
 
@@ -15,37 +15,39 @@ I created an innovative widget application, designed to simplify and enhance you
 ## 🛠️ Technologies Used
 
 - Framework(s): React
-- Tools: Git, https://openweathermap.org/ (for API key, I will include mine), https://bible-api.com/
+- Tools: Git, https://openweathermap.org/ (for API key, I will include an API key), https://bible-api.com/
 
 ## 📂 Project Structure
 
 
 ```bash
-project-name/
-├── src/                # Source files
-├── components/pages/   # Components      
-├── images/             # Image Files
-└── README.md           # Project documentation
+J-Widjets/
+├── src/                    # Source files
+├── src/components/pages/   # Components      
+├── images/                 # Image Files
+└── README.md               # Project documentation
 
 ```
 ## Installation
 
-Assuming you have cloned the repository. 
+Clone repository
 
 ```bash
-cd JWidgets
+https://github.com/jerflores123/J-Widjets.git
 ```
 
 Navigate to the project directory
 ```bash
-
+cd J-Widgets
 ```
 
 You will need to install the latest verson of `node.js` in order to run `npm`.
+
+Install dependencies:
 ```bash
 npm install
 ```
-To Start Server:
+Start development server:
 
 ```bash
 npm start
